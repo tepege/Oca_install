@@ -92,7 +92,7 @@ echo -e "\nCreando los accesos directos..."
 
 #VERSIÓN 8.0
 #account_banking_payment_export,
-a#ccount_banking_payment_transfer,
+#account_banking_payment_transfer,
 
 
 -------------------------------------------------
