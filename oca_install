@@ -63,6 +63,7 @@ echo -e "\nCreando los accesos directos..."
 	sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
 	sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
 	sudo ln -s /opt/odoo/l10n-spain/l10n_es /opt/odoo/custom/addons
+	sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_fiscal_year_closing /opt/odoo/custom/addons
 
 
 #repositorio https://github.com/OCA/partner-contact.git
@@ -104,5 +105,5 @@ echo -e "\nCreando los accesos directos..."
 #l10n_es_aeat_mod130 
 #l10n_es_aeat_mod347 
 #l10n_es_pos
-#sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_fiscal_year_closing /opt/odoo/custom/addons
+#
 
