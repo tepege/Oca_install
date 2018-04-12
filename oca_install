@@ -24,8 +24,7 @@ echo -e "\nCreando los accesos directos..."
 #repositorio https://github.com/OCA/account-financial-reporting.git
 	sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons	
 	sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
-	sudo ln -s /opt/odoo/account-financial-reporting/account_tax_balance /opt/odoo/custom/addons
-		
+			
 #repositorio https://github.com/OCA/account-financial-tools.git
 	sudo ln -s /opt/odoo/account-financial-tools/account_chart_update /opt/odoo/custom/addons
 	sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronology /opt/odoo/custom/addons	
@@ -84,7 +83,6 @@ echo -e "\nCreando los accesos directos..."
 #repositorio https://github.com/OCA/server-tools.git
 	sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 	sudo ln -s /opt/odoo/server-tools/disable_odoo_online /opt/odoo/custom/addons	#sustituye a disable_openerp_online,
-	sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
 
 #repositorio https://github.com/OCA/web.git
 	sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
