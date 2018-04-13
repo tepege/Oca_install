@@ -49,6 +49,7 @@ echo -e "\nCreando los accesos directos..."
 	
 #repositorio https://github.com/OCA/knowledge.git
 	sudo ln -s /opt/odoo/knowledge/document_page /opt/odoo/custom/addons
+	sudo ln -s /opt/odoo/knowledge/knowledge /opt/odoo/custom/addons
 		
 #repositorio https://github.com/OCA/l10n-spain.git
 	sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting_xlsx /opt/odoo/custom/addons 	#Sustituye a account_balance_reporting_xls
