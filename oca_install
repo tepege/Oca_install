@@ -83,6 +83,7 @@ echo -e "\nCreando los accesos directos..."
 #repositorio https://github.com/OCA/server-tools.git
 	sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 	sudo ln -s /opt/odoo/server-tools/disable_odoo_online /opt/odoo/custom/addons	#sustituye a disable_openerp_online,
+	sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
 
 #repositorio https://github.com/OCA/web.git
 	sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
