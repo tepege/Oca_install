@@ -23,11 +23,14 @@ echo -e "\nDescargando repositorios..."
  sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
  sudo git clone https://github.com/OCA/account-invoicing.git -b 10.0 /opt/odoo/account-invoicing
  sudo git clone https://github.com/OCA/account-closing.git -b 10.0 /opt/odoo/account-closing
+ sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
 
 
 # 2.- Crear los accesos directos a custom/addons de cada módulo necesario
 echo -e "\nCreando los accesos directos..."
-	
+
+#repositorio https://github.com/OCA/account-financial-reporting.git
+	sudo ln -s /opt/odoo/account-financial-reporting/account_tax_balance /opt/odoo/custom/addons
 			
 #repositorio https://github.com/OCA/account-financial-tools.git
 	sudo ln -s /opt/odoo/account-financial-tools/account_chart_update /opt/odoo/custom/addons
