@@ -84,7 +84,7 @@ echo -e "\nCreando los accesos directos..."
 	
 #repositorio https://github.com/OCA/reporting-engine.git
 	sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons	#sustituye a report_xls
-	sudo ln -s /opt/odoo/reporting-engine/report_py3o /opt/odoo/custom/addons 	#sustituye a report_custom_filename
+	#sudo ln -s /opt/odoo/reporting-engine/report_py3o /opt/odoo/custom/addons 	#sustituye a report_custom_filename investigar librelias a instalar
 	
 #repositorio https://github.com/OCA/server-tools.git
 	sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
