@@ -45,6 +45,7 @@ echo -e "\nCreando los accesos directos..."
 	sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/custom/addons
 	sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons  # sustituye a account_direct_debit
 	sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
+	sudo ln -s /opt/odoo/bank-payment/account_payment_order /opt/odoo/custom/addons
 	
 #repositorio https://github.com/OCA/knowledge.git
 	sudo ln -s /opt/odoo/knowledge/document_page /opt/odoo/custom/addons
