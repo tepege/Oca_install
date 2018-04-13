@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "oca_install",
+    'name': "module_oca_install",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
