@@ -105,7 +105,7 @@ echo -e "\nCreando los accesos directos..."
 	sudo ln -s /opt/odoo/account-closing/account_fiscal_year_closing /opt/odoo/custom/addons
 	
 #Enlace a módulo OCA_INSTALL
-	sudo ln -s /opt/odoo/install_oca  /opt/odoo/custom/addons
+	sudo ln -s /opt/odoo/install_oca/module_oca_install  /opt/odoo/custom/addons
 	
 
 
