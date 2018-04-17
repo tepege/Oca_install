@@ -27,8 +27,10 @@ echo -e "\nDescargando repositorios..."
  sudo git clone https://github.com/OCA/account-closing.git -b 10.0 /opt/odoo/account-closing
  sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
  
-
-
+ #Descarga el módulo oca install en la carpeta odoo
+ 
+ sudo git clone https://github.com/tepege/Oca_install.git -b 10.0 /opt/odoo/oca_install
+ 
 
 # 2.- Crear los accesos directos a custom/addons de cada módulo necesario
 echo -e "\nCreando los accesos directos..."
@@ -103,7 +105,7 @@ echo -e "\nCreando los accesos directos..."
 	sudo ln -s /opt/odoo/account-closing/account_fiscal_year_closing /opt/odoo/custom/addons
 	
 #Enlace a módulo OCA_INSTALL
-	sudo ln -s /root/Oca_install/module_oca_install /opt/odoo/custom/addons
+	sudo ln -s /opt/odoo/oca_install  /opt/odoo/custom/addons
 	
 
 
